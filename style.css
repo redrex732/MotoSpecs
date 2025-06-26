@@ -1,0 +1,258 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f0f5;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.brand-item {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.brand-item:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.brand-item img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+  height: 140px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .brand-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .brand-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+a.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+  margin: 10px;
+  border: 2px solid;
+}
+
+.Ducati {
+  background-color: transparent;
+  color: #CB1517;
+  border-color: #CB1517;
+}
+.Ducati:hover {
+  background: linear-gradient(to right, #CB1517, #A11212, #8B0E0E);
+  color: white;
+}
+
+.Honda {
+  background-color: transparent;
+  color: #DA0E0E;
+  border-color: #DA0E0E;
+}
+.Honda:hover {
+  background: linear-gradient(to right, #DA0E0E, #B80B0B, #8B0707);
+  color: white;
+}
+
+.Suzuki {
+  background-color: transparent;
+  color: #005BAC; 
+  border-color: #005BAC;
+}
+.Suzuki:hover {
+  background: linear-gradient(to right, #005BAC, #004A8C, #003B70);
+  color: white;
+}
+
+.HD {
+  background-color: transparent;
+  color: #FF6600; 
+  border-color: #FF6600;
+}
+.HD:hover {
+  background: linear-gradient(to right, #FF6600, #CC5200, #993D00);
+  color: white;
+}
+
+.BMW {
+  background-color: transparent;
+  color: #0066B1;
+  border-color: #0066B1;
+}
+.BMW:hover {
+  background: linear-gradient(to right, #e30b17, #00a3e0, #00205b);
+  color: white;
+}
+
+.Kawasaki {
+  background-color: transparent;
+  color: #00A650; 
+  border-color: #00A650;
+}
+.Kawasaki:hover {
+  background: linear-gradient(to right, #00A650, #008A41, #006F34);
+  color: white;
+}
+
+.Triumph {
+  background-color: transparent;
+  color: #00205B; 
+  border-color: #00205B;
+}
+.Triumph:hover {
+  background: linear-gradient(to right, #00205B, #001841, #000E2B);
+  color: white;
+}
+
+.KTM {
+  background-color: transparent;
+  color: #FF6600; 
+  border-color: #FF6600;
+}
+.KTM:hover {
+  background: linear-gradient(to right, #FF6600, #CC5200, #993D00);
+  color: white;
+}
+
+.Aprilia {
+  background-color: transparent;
+  color: #ED1C24; 
+  border-color: #ED1C24;
+}
+.Aprilia:hover {
+  background: linear-gradient(to right, #ED1C24, #BA171C, #8B1117);
+  color: white;
+}
+
+.Yamaha {
+  background-color: transparent;
+  color: #0066B1;
+  border-color: #0066B1;
+}
+.Yamaha:hover {
+  background: linear-gradient(to right, #0033A0, #0066B1, #66A3FF);
+  color: white;
+}
+.MVAgusta {
+  background-color: transparent;
+  color: #003366;
+  border-color: #003366;
+}
+.MVAgusta:hover {
+  background: linear-gradient(to right, #003366, #002244, #001122);
+  color: white;
+}
+
+.Indian {
+  background-color: transparent;
+  color: #6E0B14;
+  border-color: #6E0B14;
+}
+.Indian:hover {
+  background: linear-gradient(to right, #6E0B14, #520810, #3A050C);
+  color: white;
+}
+
+.Bimota {
+  background-color: transparent;
+  color: #C41E3A;
+  border-color: #C41E3A;
+}
+.Bimota:hover {
+  background: linear-gradient(to right, #C41E3A, #99162C, #6B0F1D);
+  color: white;
+}
+
+.Husqvarna {
+  background-color: transparent;
+  color: #002F6C;
+  border-color: #002F6C;
+}
+.Husqvarna:hover {
+  background: linear-gradient(to right, #002F6C, #001F4D, #000F2D);
+  color: white;
+}
+
+.GasGas {
+  background-color: transparent;
+  color: #D1001C;
+  border-color: #D1001C;
+}
+.GasGas:hover {
+  background: linear-gradient(to right, #D1001C, #A60017, #7A0012);
+  color: white;
+}
+
+.CFMoto {
+  background-color: transparent;
+  color: #00B2A9;
+  border-color: #00B2A9;
+}
+.CFMoto:hover {
+  background: linear-gradient(to right, #00B2A9, #009488, #007466);
+  color: white;
+}
+
+.Benelli {
+  background-color: transparent;
+  color: #007A33;
+  border-color: #007A33;
+}
+.Benelli:hover {
+  background: linear-gradient(to right, #007A33, #005D27, #00431C);
+  color: white;
+}
+
+.RoyalEnfield {
+  background-color: transparent;
+  color: #E40521;
+  border-color: #E40521;
+}
+.RoyalEnfield:hover {
+  background: linear-gradient(to right, #E40521, #B1041A, #870315);
+  color: white;
+}
